@@ -1,0 +1,8 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    --bs-nav-pills-link-active-bg: #212529;
+}
+
+
+.active{
+    background-color: var(--bs-btn-bg);
+}
