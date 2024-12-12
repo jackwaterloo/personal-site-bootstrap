@@ -1,5 +1,5 @@
 # Personal Site in Bootstrap
-The goal of this project is to re-create my [personal site](https://jackwaterloo.com/) using boostrap.
+The goal of this project is to re-create my [personal site](https://jackwaterloo.com/) using bootstrap.
 
 This project displays my use of HTML, CSS, and the Bootstrap framework.
 You can view the deployed version of this project at the following link: [https://jackwaterloo.github.io/personal-site-bootstrap/](https://jackwaterloo.github.io/personal-site-bootstrap/).
