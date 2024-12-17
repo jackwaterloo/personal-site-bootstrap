@@ -6,3 +6,30 @@
 .active{
     background-color: var(--bs-btn-bg);
 }
+
+#hero-section{
+    position: relative;
+    min-height: 70vh;
+    background-image: url(../assets/images/hero-background-unsplash.jpeg);
+    background-size: cover;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+#hero-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+}
+
+#hero-bg > div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:768px){
+    #hero-section{
+        min-height: 30vh;
+    }
+}
