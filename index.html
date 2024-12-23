@@ -13,28 +13,36 @@
 
 <body>
 
-  <!--Navigation bar-->
-  <div class="container py-0 my-0">
-    <header class="d-flex justify-content-center py-3">
-      <nav class="nav nav-pills">
-        <li class="nav-item"><a href="./index.html" class="nav-link active text-body-primary"
-            aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-body-secondary">Portfolio</a></li>
-        <li class="nav-item"><a href="./public/contact-me.html" class="nav-link text-body-secondary">Contact me</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-body-secondary">About</a></li>
-      </nav>
-    </header>
-  </div>
-
-  <!--Hero sections. My Tech Journey-->
+  <!--Hero section. My Tech Journey-->
   <section id="hero-section">
-    <div id="hero-bg">
-      <div class="px-4 py-5 d-flex align-items-center justify-content-center text-center">
+    <div id="hero-mask">
+
+      <!--Nav Bar-->
+      <header class="d-flex justify-content-center py-3 text-body-primary">
+        <nav class="nav nav-pills text-body-primary">
+          <li class="nav-item"><a href="./index.html" class="nav-link active text-body-primary"
+              aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="./public/contact-me.html" class="nav-link">Contact me</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </nav>
+      </header>
+
+      <!--Main title-->
+      <div class="main-title d-flex align-items-center justify-content-center text-center">
         <div>
-        <h1 class="display-1 fw-bold text-white">My Tech Journey</h1>
-          <button type="button" class="btn btn-dark btn-lg">Primary button</button>
+          <h1 class="display-1 fw-bold text-white">My Tech Journey</h1>
+          <a href="./public/contact-me.html">
+            <button type="button" class="btn btn-dark btn-lg">Contact Me 
+              <svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+              </svg>
+            </button>
+          </a>
         </div>
-      </div>
       </div>
     </div>
   </section>
@@ -44,7 +52,7 @@
     <div class="row flex-lg-row align-items-center justify-content-between g-5 py-5">
       <div class="d-flex align-items-center justify-content-center col-12 col-lg-6">
         <img src="./assets/images/jack-suit.jpeg" class="d-block img-fluid rounded" alt="Jack in a suit" width="400px"
-          loading="lazy"> <!--photo of me-->
+          loading="lazy">
       </div>
       <div class="col-lg-6">
         <h2 class="text-body-emphasis text-body-emphasis lh-1 mb-3">About Jack</h2>
@@ -58,11 +66,22 @@
 
   <div class="container my-5">
     <div class="p-5 bg-body-tertiary rounded-3">
-      <div class="row align-items-center text-center">
-        <div class="col-12 col-md-6">
-          <h2 class="text-body-emphasis text-md-start">My Portfolio</h2>
+      <div class="row align-items-center text-center justify-content-between">
+        <div class="col-6">
+          <h2 class="text-body-emphasis text-start">My Portfolio</h2>
         </div>
-        <div class="col-12 col-md-6 text-md-end"><button class="btn btn-dark">View All Posts</button></div>
+        <div class="col-6 text-end">
+          <a href="#">
+            <button class="btn btn-dark">View All Posts 
+              <svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+              </svg>
+            </button>
+          </a>
+        </div>
       </div>
       <p class="lead">
         The goal of my blog is to document my many projects that translate to the IT field. The blog page

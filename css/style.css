@@ -1,35 +1,35 @@
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     --bs-nav-pills-link-active-bg: #212529;
 }
 
 
-.active{
+.active {
     background-color: var(--bs-btn-bg);
 }
 
-#hero-section{
+#hero-section {
     position: relative;
-    min-height: 70vh;
+    min-height: 100vh;
     background-image: url(../assets/images/hero-background-unsplash.jpeg);
+    background-position: center;
     background-size: cover;
-    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 
-#hero-bg{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,.2);
-}
-
-#hero-bg > div {
+.main-title {
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-@media (max-width:768px){
-    #hero-section{
-        min-height: 30vh;
-    }
+#hero-mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.nav-link {
+    color: white;
 }
