@@ -10,13 +10,13 @@ I opted for bootstrap classes over traditional CSS.
 
 Most of the CSS I wrote was for hero section and creating a mask over the background image. I researched how to change some of the CSS variables in boostrap and you can see that at the top of the `css/style.css` file.
 
-I had to constult the documentation many times to make sure I was applying the write classes for Boostrap. It is much more convenient to use Boostrap breakpoints and columns than to use media quaries with traditional HTML and CSS.
+I had to constult the documentation many times to make sure I was applying the right classes for Boostrap. It is much more convenient to use Boostrap breakpoints and columns than to use media quaries with traditional HTML and CSS.
 
 ## Contact Page
 ### HTML
 The entire *Contact Me* section I created from scratch. The footer and nav bar were copied over from the home page.
 
-Filling out the elements and deciding struction for the section was pretty quick. THe same cannot be said about the CSS portion.
+Filling out the elements and deciding struction for the section was pretty quick. The same cannot be said about the CSS portion.
 
 ### CSS
 It was very difficult to get the functionality I wanted with responsiveness. 
