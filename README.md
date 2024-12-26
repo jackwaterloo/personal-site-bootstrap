@@ -16,7 +16,7 @@ I had to consult the documentation many times to make sure I was applying the ri
 ### HTML
 The entire *Contact Me* section I created from scratch. The footer and nav bar were copied over from the home page.
 
-Filling out the elements and deciding struction for the section was pretty quick. The same cannot be said about the CSS portion.
+Filling out the elements and deciding structure for the section was pretty quick. The same cannot be said about the CSS portion.
 
 ### CSS
 It was very difficult to get the functionality I wanted with responsiveness. 
