@@ -33,7 +33,7 @@ The above issue came across in my code on my `section` and `.flex-container` sel
 
 The developer tools in chrome allowed me to see the CSS properties that were causing issues as I made changes. I was able to get the desired responsiveness I wanted on the site after a lot of trial and error, and some research.
 
-I do not think I am optimally using the CCS cascade to apply styles. For example, the style applied to my media queries are very redundant but I could not find a better way to write it.
+I do not think I am optimally using the CCS cascade to apply styles. For example, the styles applied in my media queries are very redundant but I could not find a better way to do it.
 
 ## Portfolio Page
 ### HTML and CSS
