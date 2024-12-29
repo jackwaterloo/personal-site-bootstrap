@@ -29,7 +29,7 @@ I ran into an issue with element height and position.
 - An element with `position: relative` cannot also have `height: fit-content` property as well.
     - This may be because the element in question had a child element with `position absolute`. This means the child element position depends on it's parent. 
 
-The above issue came across in my code on my `section` and `.flex-container` selectors in my media query. `height: fit-content` only worked after declaring the **position** of both elements as **static**.
+The above issue came across in my `css/contact-me.css` file with my `section` and `.flex-container` selectors in the media query. `height: fit-content` only worked after declaring the **position** for both selectors as **static**.
 
 The developer tools in chrome allowed me to see the CSS properties that were causing issues as I made changes. I was able to get the desired responsiveness I wanted on the site after a lot of trial and error, and some research.
 
