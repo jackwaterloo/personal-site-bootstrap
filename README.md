@@ -1,28 +1,36 @@
 # Personal Site with HTML, CSS, Bootstrap
-The goal of this project is to re-create my [personal site](https://jackwaterloo.com/) using HTML, CSS, and bootstrap.
+The goal of this project is to re-create my <a href="https://jackwaterloo.com/" target="_blank">personal site</a> using HTML, CSS, and bootstrap.
 
-You can view the deployed version of this project at the following link: [https://jackwaterloo.github.io/personal-site-bootstrap/](https://jackwaterloo.github.io/personal-site-bootstrap/).
+You can view the deployed version of this project at the following link: <a href="https://jackwaterloo.github.io/personal-site-bootstrap/" target="_blank">https://jackwaterloo.github.io/personal-site-bootstrap/</a>
+
 ## Home Page
 ### HTML
 I used [bootstrap snippets](https://getbootstrap.com/docs/5.3/examples/) to structure out my sections. I then changed the information to reflect myself.
 ### CSS
-I opted for bootstrap classes over traditional CSS. 
+I opted for bootstrap classes over traditional CSS for the home page. 
 
 Most of the CSS I wrote was for hero section and creating a mask over the background image. I researched how to change some of the CSS variables in bootstrap and you can see that at the top of the `css/style.css` file.
 
-I had to consult the documentation many times to make sure I was applying the right classes for Bootstrap. It is much more convenient to use Bootstrap breakpoints and columns than to use media queries with traditional HTML and CSS.
+I had to consult the documentation many times to make sure I was applying the right classes for Bootstrap. It is much more convenient to use Bootstrap breakpoints and columns than to use media queries for responsive design.
 
 ## Contact Page
 ### HTML
-The entire *Contact Me* section I created from scratch. The footer and nav bar were copied over from the home page.
+I utilized little bootstrap for this page. The entire *Contact Me* section I created from scratch. The footer and nav bar were copied over from the home page.
 
 Filling out the elements and deciding structure for the section was pretty quick. The same cannot be said about the CSS portion.
 
 ### CSS
-It was very difficult to get the functionality I wanted with responsiveness. 
 
-The CSS variable changes are still at the top of the `css/contact-me.css` page. Again, I looked that up just to change a bootstrap color, I can't honestly tell you I am familiar with CSS variables at all. 
+The CSS variable changes for bootstrap are still at the top of the `css/contact-me.css` page.
 
-The media queries gave me a head ache when trying to get my desired responsiveness. In the smallest media query, I declared so many elements as `display: block` in the hope to get the elements to stack on top of each other instead of abiding by flexbox. The developer tools in chrome allowed me to see a lot of the CSS properties that were causing issues I made changes. Was able to get the desired responsiveness I wanted on the site after a lot of trial and error, and some research.
+The media queries were a head ache when trying to achieve my desired responsiveness for the page. 
 
-The CSS code is very messy and probably not structure optimally. I will go back and touch up styling just a bit as well as organize my CSS properly.
+I ran into an issue with element height and position.
+- An element with `position: relative` cannot also have `height: fit-content` property as well.
+    - This may be because the element in question had a child element with `position absolute`. This means the child element position depends on it's parent. 
+
+The above issue came across in my code on my `section` and `.flex-container` selectors in my media query. `height: fit-content` only worked after declaring the **position** of both elements as **static**.
+
+The developer tools in chrome allowed me to see the CSS properties that were causing issues as I made changes. I was able to get the desired responsiveness I wanted on the site after a lot of trial and error, and some research.
+
+I do not think I am optimally using the CCS cascade to apply styles. For example, the style applied to my media queries are very redundant but I could not find a better way to write it.
