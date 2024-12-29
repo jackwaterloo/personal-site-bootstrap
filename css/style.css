@@ -3,6 +3,13 @@
     --bs-nav-pills-link-active-bg: #212529;
 }
 
+p, a.nav-link {
+    color: black;
+}
+
+nav .nav-link {
+    color: white;
+}
 
 .active {
     background-color: var(--bs-btn-bg);
@@ -28,8 +35,4 @@
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, .2);
-}
-
-.nav-link {
-    color: white;
 }
