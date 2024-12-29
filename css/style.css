@@ -36,3 +36,7 @@ nav .nav-link {
     width: 100%;
     background-color: rgba(0, 0, 0, .2);
 }
+
+#jack-suit {
+    box-shadow: #f8f9fb -30px 30px;
+}
